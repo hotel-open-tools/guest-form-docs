@@ -1,11 +1,24 @@
 # 📌 Epics and User Stories
 
+| Epic Number | Title                              | Goal                                                                 |
+|-------------|------------------------------------|----------------------------------------------------------------------|
+| Epic 1      | GitHub & Project Setup             | Establish a structured GitHub organization with well-organized repositories. |
+| Epic 2      | Development Environment            | Ensure a smooth development experience with VS Code, WSL, and DevContainers. |
+| Epic 3      | Documentation & Project Management | Provide clear and accessible documentation.                          |
+| Epic 4      | Infrastructure & Deployment        | Host the application on Azure while ensuring scalability and cost efficiency. |
+| Epic 5      | Database & Data Management         | Store and manage guest registrations securely.                       |
+| Epic 6      | Security & Secrets Management      | Ensure secure storage and access control.                            |
+| Epic 7      | Monitoring & Logging               | Track system performance and log activity.                           |
+| Epic 8      | CI/CD & Automation                 | Automate deployment and testing.                                     |
+| Epic 9      | Frontend & User Experience         | Build a user-friendly guest registration UI.                         |
+| Epic 10     | Backend API                        | Implement backend services for handling guest data.                  |
+
 ## 🟢 Epic 1: GitHub & Project Setup
 🎯 **Goal:** Establish a structured GitHub organization with well-organized repositories.
 
 ### User Stories:
 - #### GH-001: Set Up GitHub Organization & Repositories
-    - ✅ Create `hotel-open-tools` organization.
+    - Create `hotel-open-tools` organization.
     - Configure basic settings (collaborators, visibility, permissions).
 
 - #### GH-002: Create Repositories for Different Components
@@ -21,7 +34,7 @@
 
 ### User Stories:
 - #### DEV-001: Set Up Development Environment
-    - ✅ Install WSL and configure AlmaLinux 9.
+    - Install WSL and configure AlmaLinux 9.
     - Install necessary CLI tools (git, Docker, Azure CLI).
 
 - #### DEV-002: Configure DevContainers for Repositories
@@ -32,10 +45,10 @@
 🎯 **Goal:** Provide clear and accessible documentation.
 
 ### User Stories:
-- #### DOC-001: Set Up a Central Documentation Repository | 🔗 **GitHub Issue:** [#1-document-user-stories](https://github.com/hotel-open-tools/guest-form-docs/issues/1)
-    - ✅ Create `guest-docs` repository for project documentation.
-    - ✅ Add an initial `README.md`.
-    - ✅ Create `user-stories.md`.
+- #### DOC-001: Set Up a Central Documentation Repository
+    - Create `guest-docs` repository for project documentation.
+    - Add an initial `README.md`.
+    - Create `user-stories.md`.
 
 - #### DOC-002: Document the Project’s Architecture & Design
     - Create `architecture.md` in `guest-docs`.
@@ -152,7 +165,7 @@
     - Provide language selection for users.
     - Translate all UI elements.
 
-## 🟢 Epic 10: Backend API
+## 🟢 Epic 10: Backend API {#epic-10-backend-api}
 🎯 **Goal:** Implement backend services for handling guest data.
 
 ### User Stories:
