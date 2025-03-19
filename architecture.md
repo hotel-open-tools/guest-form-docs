@@ -13,7 +13,7 @@ graph TD
     GitHubActions -->|Publishes| GitHubPackages
     AzureContainerApps -->|Stores data| AzureCosmosDB[(AzureCosmosDB)]
     User -->|Uses app| AzureContainerApps
-    DevContainer o-.-o |Pulls images| GitHubPackagesf
+    DevContainer o-.-o |Pulls images| GitHubPackages
     AzureContainerApps o-.-o |Pulls images| GitHubPackages
     GitHubActions --> |Gitops| Azure-Resources
 
